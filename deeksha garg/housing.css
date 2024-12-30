@@ -1,0 +1,603 @@
+*{padding: 0%;
+margin: 0%;}
+
+.body1{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.md{ width: 92%;
+}
+
+
+.headline{ width: 100%;
+height: 60px;
+backdrop-filter: blur(1px);
+background-color:rgb(51,47,99);
+/* background-color: rgb(60, 12, 105,1);  */
+display: flex;
+align-items: center;
+justify-items: center;
+/* position: fixed; */
+/* z-index: 800; */
+}
+
+.backimage{ width: 100%;
+    /* border: 2px solid green; */
+height: 310px;
+/* backdrop-filter: blur(1px); */
+background-color: rgba(68, 23, 139, 0.8);
+border-bottom-right-radius: 50px;
+border-bottom-left-radius: 50px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+background-image: url(https://c.housingcdn.com/demand/s/client/common/assets/buyCover.36ede2d6.jpg);
+background-repeat: no-repeat;
+background-size: contain;
+
+}
+
+#logo{ display: flex;
+justify-content:center ;
+margin-left: 5%;
+width: 10%;}
+
+.right{ margin-left: 20%;
+    width: 90%; list-style: none;
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: small;}
+
+.personlogo{ height: 35px;
+    width: 49px;
+    background-color: rgba(255, 255, 255, 0.7);
+     border-radius:15px;
+display: flex;
+align-items: center;
+}
+
+.payrent{height: 35px;
+    width: 65px;
+    border-radius:10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    background-color: rgb(255, 255, 255,0.6);}
+
+
+.h2{color: white;
+    width: 600px;
+     height: 70px;
+     display: flex;
+     margin-right: 30%;
+     align-items: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.buy{
+     /* background-color: darkblue; */
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 600px; 
+margin-right: 60%;
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: small;
+/* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+/* word-spacing: 10%; */
+height: 40px;
+gap: 25px;}
+
+.download1{height: 30px;
+    width: 100px;
+     /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+/* .bi-phone{ border: 3px solid yellow;} */
+
+.save1{display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.save{ height:30px;
+width: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+/* border: 1px solid red; */
+}
+
+.saveicon1{ height: 17px;
+width: 20px;
+/* border: 1px solid green; */
+}
+
+.search{ height: 66px;
+    width: 600px;
+    background-color: white;
+    
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50px; gap: 25px;
+
+}
+
+.properties{
+    /* backdrop-filter: blur(0.1px); */
+    background-color:rgb(51,47,99);
+     height: 70px;
+width: 600px;
+border-radius: 10px;
+/* border: 1px solid red; */
+border-bottom-right-radius: 15%;
+border-bottom-left-radius: 15%;}
+
+.s1{ background-color: rgb(39, 173, 129);
+height: 48px; 
+width: 84px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50px;
+}
+
+#input{ width: 350px;
+height: 50px;
+/* border-radius: 50px; */
+
+border-style: none;
+border-left: 1px solid rgb(223, 221, 221);
+background: none;}
+
+#input:focus{outline: none;}
+
+.centre{ display: flex;
+justify-items: end;
+align-items: center;
+/* border: 1px solid red; */
+flex-direction: column;
+height: 200px;
+margin-top: 30px;}
+
+
+.option1{ height: 30px;
+width: 80px;
+border-radius: 50px;}
+
+select{ border-style: none;
+background: none;}
+
+
+
+
+.Popular1{height: 50px;
+    width: 700px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: row;
+    /* border: 1px solid rgb(21, 32, 1);  */
+    /* gap: 40px; */
+  margin-top: 10px;  
+}
+
+#p1{color: white;
+font: bold;
+font-size: small;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.b1{height: 30px;
+width: 120px;
+color: white;
+font: bold;
+border-style: none;
+border-radius: 5px;
+background-color: rgb(252, 252, 252 ,0.3);
+display: flex;
+align-items: center;
+justify-content: space-between;}
+
+.b2{height: 30px;
+    width: 90px;
+    align-items: center;
+    color: white;
+    font: bold;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(252, 252, 252 ,0.3);
+    display: flex;
+justify-content: space-between;
+} 
+ 
+    
+    
+.b3{height: 30px;
+        width: 110px;
+        color: white;
+        font: bold;
+        align-items: center;
+        border-style: none;
+        border-radius: 5px;
+        background-color: rgb(252, 252, 252 ,0.3);
+        display: flex;
+    justify-content: space-between;}
+
+
+ .b4{height: 30px;
+            width: 110px;
+            align-items: center;
+            color: white;
+            font: bold;
+            border-style: none;
+            border-radius: 5px;
+            background-color: rgb(252, 252, 252 ,0.3);
+            display: flex;
+            justify-content: space-between;}
+            
+        .icon1{ height: fit-content;
+        width: 20px;}
+
+        .btn-c{width: 80%;
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+
+.rent{ height: 10%;
+    width: 400px;
+     color: rgb(255, 255, 255);
+    font: small;
+    /* border: 1px solid red; */
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(35, 31, 78);
+margin-top: 18px;
+}
+
+.divcentre{ 
+    display: flex;
+justify-content: center;
+align-items: center;
+/* border: 1px solid green; */
+
+margin-top: 40px;}
+
+/* #spotlight{ border: 1px solid purple;} */
+
+#blank{ height: 120px;
+width: 500px;
+/* border: 1px solid orange; */
+}
+
+/* #image1{ border: 1px solid red;} */
+
+#live{ color: rgb(73, 73, 73);}
+
+#countyard{ height: 100px;
+    width: 150px;
+border-radius: 20px;
+border: 2px solid plum;}
+
+.div3{
+    /* border: 1px solid red; */
+    background-color: rgb(231, 197, 231);
+height: 400px;
+width: 950px;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 8px;
+}
+
+
+#project1{ display: flex;
+justify-content: center;
+align-items: center;
+/* border: 1px solid grey; */
+margin: 1.5%;}
+
+#building{ height: 390px;
+width:730px;
+border-radius: 20px;
+margin-top: 0.7%;}
+
+
+#view1{color: purple;}
+
+#img2{ height: 80px;
+width: 80px;
+border-radius: 20px;}
+
+#but2{ height: 70px;
+width: 180px;
+/* border: 1px solid red; */
+color: white;
+border-radius: 20px;
+margin-top: 15%;
+border-style: none;
+background-color: rgb(99, 26, 167);}
+
+.prime1{
+     /* border: 1px solid white; */
+    margin-top: 12%;
+    /* display: flex; */
+/* justify-content: center; */
+/* align-items: center; */
+ }
+
+.l1{
+     /* border: 2px solid greenyellow; */
+    margin-top: 12%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.left1{ display: flex;
+    height:380px ;
+    width: 200px;
+/* align-items: center; */
+/* justify-content: space-evenly; */
+flex-direction: column;
+margin-left: 1%;}
+
+#kokta{ color: rgb(73, 73, 73);
+font-size: small;}
+
+#ploat1{color: rgb(73, 73, 73);
+font-size: small;}
+
+
+.top{ margin-top: 10%;}
+
+.sec{ display: flex;
+align-items: center;
+justify-content: center;
+/* border: 1px solid black; */
+height: 400px;
+width: 950px;
+margin-top: 20px;}
+
+.sec1{ border: 1px solid rgb(180, 177, 177) ;
+height: 400px;
+width: 463px;
+border-radius: 12px;}
+
+.sec1:hover{
+     /* background-color: antiquewhite; */
+box-shadow: 3px 3px 10px 1px grey ;}
+
+.sec2{border: 1px solid rgb(175, 173, 175);
+    margin-left: 18px;
+    height: 400px;
+    width: 463px;
+    border-radius: 12px;
+}
+.sec2:hover{
+     /* background-color: antiquewhite; */
+    box-shadow: 3px 3px 10px 1px grey ;}
+    
+
+#img3{ height: 230px;
+width: 463px;
+border-top-left-radius: 12px;
+border-top-right-radius: 12px;}
+
+#img4{ height: 230px;
+    width: 463px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;}
+    
+    .madhuban{display: flex;
+    align-items: center;
+justify-content: center;
+margin-top: 10px; font-family:Arial, Helvetica, sans-serif;
+}
+
+#l48{ margin-left: 200px;}
+
+
+#m{ color: grey; }
+
+#bhk{ margin-top: 25px;
+margin-left: 25px;}
+
+#idh5{color: rgb(15, 15, 15);
+font-weight: lighter;}
+
+#l75{ margin-left: 100px;}
+
+/* #bhk-border{ border: 1px solid lightgrey;
+    height: 170px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin-top: 0px;
+    padding: 0px;
+} */
+
+.bimg{
+    /* border: 2px solid red; */
+width: 950px;
+height: 250px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+gap: 20px;
+margin-top: 14px;}
+
+
+
+.bimg1{
+    height: 245px;
+    width: 300px;
+    /* border: 1px solid green; */
+background-image: url(https://housing-images.n7net.in/4f2250e8/ca96002dba2a5e2281ecfcf6e2a3e189/v0/large/aashima_divine_city-hoshangabad_road-bhopal-madhuban_group.jpeg);
+background-repeat: no-repeat;
+background-size: 350px;
+border-radius: 15px;
+display: flex;
+
+/* align-items: center; */
+flex-direction: column;
+justify-content: last baseline;}
+
+#a{ margin-top: 44%;
+color: white;
+font-size: medium;
+margin-left: 10px;
+font-style: bold;
+font-family: Arial, Helvetica, sans-serif;}
+
+#s{ color: rgb(209, 209, 209);}
+#a2{ margin-top: 5px;
+margin-left: 75%;}
+#a3{ margin-top: 5px;}
+
+
+.bimg2{
+        height: 245px;
+        width: 300px;
+        /* border: 1px solid green; */
+        background-image: url(https://housing-images.n7net.in/4f2250e8/a2d4ca4351bfa851b3aec93fb2cf5b90/v0/large/swadesh_orchard_valley-kolar_road-bhopal-swadesh_developers.jpeg);
+        background-size: 600px;
+        background-repeat: no-repeat;
+        border-radius: 15px;}
+
+        #b2{ margin-left: 55%;}
+
+.bimg3{
+      height: 245px;
+    width: 300px;
+     /* border: 1px solid green; */
+     background-image: url(https://housing-images.n7net.in/4f2250e8/531e576d49364711ad574064b66a9171/v0/large/18th_avenue-bawadia_kalan-bhopal-padmanabh_developers_bhopal.jpeg);
+     background: size 10%;;
+     background-repeat: no-repeat;
+     border-radius: 15px;}
+   
+
+     #c2{ margin-left: 55%;}
+
+     .nav{margin-top: 15px;
+        width: 1000px;
+        height: 500px;
+        border: 1px solid red;
+        gap: 30px;
+    display: flex;
+align-items: center;
+justify-content: center;}
+
+     .nava{ width: 280px;
+        height: 500px;
+        border-radius: 10px;
+        /* border: 1px solid rgb(25, 8, 102); */
+        border-radius: 10px;
+            border-top: 3px solid blue;
+    display: flex;
+/* justify-content: center; */
+align-items: center;
+flex-direction: column;}
+
+
+        .na1{ 
+            border: 1px solid blue;
+            
+        height: 125px;
+        width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+
+    #img6{margin-right: 10px;}
+
+    #sage1{ height: 50px;
+        width: 150px;
+        border: 2px solid yellow;
+        display: flex;
+        align-items: center;
+        justify-content: centre;
+        /* flex-direction: row; */
+    }
+
+    #sage{font-size: large;
+        margin-right: 20px;
+        /* margin-bottom: 10%; */
+font-family: Arial, Helvetica, sans-serif;
+}
+
+    #year{font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid greenyellow;
+}
+
+    #no1{ margin-left: 20px;
+        font-style:bold ;
+        font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid pink;
+}
+
+    #p2{ color: grey;
+        font-family: Arial, Helvetica, sans-serif;}
+
+        .na2{ 
+            border: 1px solid blue;
+            height: 125px;
+            width: 270px;
+        font-family:Arial, Helvetica, sans-serif ;
+    color: grey;
+font-size: small;}
+        .na3{
+             border: 1px solid blue;
+            height: 50px;
+            width: 270px;
+        display: flex;
+    align-items: center;
+justify-content: space-evenly;}
+
+        #na4{border-radius: 10px;
+             border: 1px solid blue;
+            height: 190px;
+            width: 280px;
+            color: rgb(255, 253, 253);
+            gap: 24px;
+            /* display: flex; */
+            font-family: Arial, Helvetica, sans-serif;
+        background-image: url( https://housing-images.n7net.in/4f2250e8/be9a7daf5d631e08dfe8418ebea7f5af/v0/medium/sage_golden_spring_phase_2-ayodhya_bypass_1-bhopal-sage_realty.png);}
+
+        #dold1{ margin-top: 110px;}
+
+
+        #g1{ color: blue;}
+     .navb{width: 280px;
+        height: 500px;
+        border-radius: 10px;
+        border: 1px solid rgb(98, 133, 16);
+    }
+
+     .navc{width: 280px;
+        height: 500px;
+        border-radius: 10px;
+        border: 1px solid rgb(58, 40, 3);
+    }
